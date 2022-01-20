@@ -14,24 +14,28 @@ const cardInfo = [
       image: todo,
       title: "Todo-List Application",
       text: "ReactJS",
+      link: 'https://reactmvapp.herokuapp.com/',
     },
     {
       image:
         movie,
       title: "Movie Application",
       text: "ReactJS, Java",
+      link: 'https://reactmvapp.herokuapp.com/',
     },
     {
       image:
         blockchain,
       title: "Budget Apps",
       text: "ReactJS",
+      link: 'https://reactmvapp.herokuapp.com/',
     },
     {
       image:
         social,
       title: "Ready player Application",
       text: "ReactJS, Java",
+      link: 'https://reactmvapp.herokuapp.com/',
     },
   ];
 const Projects = () => {
@@ -44,6 +48,7 @@ const Projects = () => {
                 <Card.Body>
                 <Card.Title>{card.title}</Card.Title>
                 <Card.Text>{card.text}</Card.Text>
+                <Card.Link href="https://reactmvapp.herokuapp.com/">Visit</Card.Link>
                 </Card.Body>
             </Card>
       </div>
