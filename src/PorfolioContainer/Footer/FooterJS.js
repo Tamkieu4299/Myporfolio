@@ -14,18 +14,7 @@ function FooterJS() {
             </h1> 
           </div>
 
-          <div className="col">
-            <h4>Home</h4>
-          </div>
-          <div className="col">
-            <h4>About me</h4>
-          </div>
-          <div className="col">
-            <h4>Projects</h4>
-          </div>
-          <div className="col">
-            <h4>Skills</h4>
-          </div>
+          
           
         </div>
         <hr />

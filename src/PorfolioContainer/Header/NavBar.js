@@ -32,9 +32,9 @@ function NavBar(){
     return(
         <nav className={navbar?'navbar active':'navbar'}>
             <div className="navbar-container">
-                <a href="#">
-                        Tam Challenges Coding<i class="fab fa-battle-net"></i>
-                </a>
+                <div>
+                         KIEU CONG TAM 
+                </div>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times': 'fas fa-bars'} />
                 </div>

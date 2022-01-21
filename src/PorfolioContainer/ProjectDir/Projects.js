@@ -3,8 +3,9 @@ import './Projects.css';
 import MousemoveProjects from '../../MousemoveProjects';
 import todo from '../../assets/Projects/todo.jpeg';
 import movie from '../../assets/Projects/movie.jpeg';
-import blockchain from '../../assets/Projects/blockchain.jpeg';
+import education from '../../assets/Projects/education.png';
 import social from '../../assets/Projects/social.jpeg';
+import coviddata from '../../assets/Projects/coviddata.png';
 
 
 import { Card } from "react-bootstrap";
@@ -14,7 +15,7 @@ const cardInfo = [
       image: todo,
       title: "Todo-List Application",
       text: "ReactJS",
-      link: 'https://reactmvapp.herokuapp.com/',
+      link: 'https://reacttodoktc.herokuapp.com/',
     },
     {
       image:
@@ -25,10 +26,17 @@ const cardInfo = [
     },
     {
       image:
-        blockchain,
-      title: "Budget Apps",
-      text: "ReactJS",
-      link: 'https://reactmvapp.herokuapp.com/',
+        education,
+      title: "Education Website",
+      text: "CSS, HTML",
+      link: 'https://nifty-euclid-48aa17.netlify.app/',
+    },
+    {
+      image:
+        coviddata,
+      title: "Covid data CLI",
+      text: "Java",
+      link: 'https://youtu.be/YHgrUoOitlc',
     },
     {
       image:
@@ -48,7 +56,7 @@ const Projects = () => {
                 <Card.Body>
                 <Card.Title>{card.title}</Card.Title>
                 <Card.Text>{card.text}</Card.Text>
-                <Card.Link href="https://reactmvapp.herokuapp.com/">Visit</Card.Link>
+                <Card.Link href={card.link}>Visit</Card.Link>
                 </Card.Body>
             </Card>
       </div>
