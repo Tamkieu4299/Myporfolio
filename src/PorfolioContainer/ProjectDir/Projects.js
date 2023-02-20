@@ -1,9 +1,10 @@
 import React from 'react';
 import './Projects.css';
 import MousemoveProjects from '../../MousemoveProjects';
-import todo from '../../assets/Projects/todo.jpeg';
+import hospital from '../../assets/Projects/hospital.png';
 import movie from '../../assets/Projects/movie.jpeg';
 import education from '../../assets/Projects/education.png';
+import algo from '../../assets/Projects/algo.png';
 import social from '../../assets/Projects/social.jpeg';
 import coviddata from '../../assets/Projects/coviddata.png';
 
@@ -12,17 +13,17 @@ import { Card } from "react-bootstrap";
 
 const cardInfo = [
     {
-      image: todo,
-      title: "Todo-List Application",
-      text: "ReactJS",
-      link: 'https://reacttodoktc.herokuapp.com/',
+      image: hospital,
+      title: "Hospital Application",
+      text: "ReactJS, NodeJS, MongoDB, Express",
+      link: 'https://mernultimatehospitalclient.onrender.com/',
     },
     {
       image:
-        movie,
-      title: "Movie Application",
-      text: "ReactJS, Java",
-      link: 'https://reactmvapp.herokuapp.com/',
+        algo,
+      title: "Algorithm Visualizing Application",
+      text: "ReactJS",
+      link: 'https://algoproject.onrender.com/',
     },
     {
       image:
@@ -30,21 +31,7 @@ const cardInfo = [
       title: "Education Website",
       text: "CSS, HTML",
       link: 'https://nifty-euclid-48aa17.netlify.app/',
-    },
-    {
-      image:
-        coviddata,
-      title: "Covid data CLI",
-      text: "Java",
-      link: 'https://youtu.be/YHgrUoOitlc',
-    },
-    {
-      image:
-        social,
-      title: "Ready player Application",
-      text: "ReactJS, Java",
-      link: 'https://reactmvapp.herokuapp.com/',
-    },
+    }
   ];
 const Projects = () => {
   const renderCard = (card, index) => {

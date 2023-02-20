@@ -42,13 +42,9 @@ export default function Profile(){
                                 steps={[
                                     "An Adventor 🌍",
                                     1400,
-                                    "I eat 🍜 LeetCode ",
+                                    "I love 🍜 Algorithms ",
                                     1400,
-                                    "Fullstack 💻 Developer",
-                                    1400,
-                                    "JAVA is my BACK",
-                                    1400,
-                                    "REACT is my FRONT",
+                                    "Fullstack 💻 Engineer",
                                     1400,
                                 ]}
                                 />
@@ -63,7 +59,7 @@ export default function Profile(){
                             {""}
                             Visit Me{" "}
                         </button>
-                        <a href='CV2_KIEUCONGTAM.pdf' dowload='Kieu Cong Tam.pdf'>
+                        <a href='KieuCongTam_SE.pdf' dowload='KieuCongTam_SE.pdf'>
                             <button className='btn highlighted-btn'>Get My Resume</button>
                         </a>
 
